@@ -7,23 +7,6 @@ Original file is located at
     https://colab.research.google.com/drive/12EPBpzF2AZ0W6xn7p-zZM-L6SEsUbZG3
 """
 
-fruits = ")("
-substring = list(fruits)
-print(len(substring))
-substring2 = substring[1:len(substring)]
-output = 0
-x = 0
-temp = 0
-for i in substring:
-  temp = temp + 1
-  if i == "(":
-    if temp < len(substring):
-      for x in substring[temp]:
-        if x == ")":
-          output = output + 2
-
-print(output)
-
 input = 5
 temp = input
 
